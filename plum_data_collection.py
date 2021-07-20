@@ -85,31 +85,4 @@ for i, row in summary_data.iterrows():
         row[2]=t5
         print("data available")
 
-#
-#
-    
-#def pre_processing(data):
-#a=data.T
-#a=a.reset_index()
-#a=a.drop(columns=['index'])
-#new_header = a. iloc[0] #grab the first row for the header.
-#a = a[1:] #take the data less the header row.
-#a.columns = new_header #set the header row as the df header.
-#a=a.reset_index()
-#a=a.drop(columns=['index']) 
-#return a
 
-
-#    
-#for i in summary_data['DOI'] :
-#    b=i
-#    print(b)
-#    plum=get_plumx_data(b)
-#      
-#    if plum.capture == None:
-#        print("data unavailable")
-#        summary_data.iloc[i, 1]= 0  #index i column 1, append NaN here
-#
-#    else:
-#        #column_B = a_dataframe.iloc[i, 1]  #do the total and appenf sum here
-#        print("data available")
